@@ -1,0 +1,29 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 120px auto 80px;
+
+  
+}
+
+.header {
+    grid-column: 1 / -1;
+}
+
+.search {
+    grid-column: 1 / -1;
+ }
+ .content{
+    /* padding: 1em; */
+    grid-column: 1 / 4;
+ }
+ .nest {
+   align-self: center;
+}
+  
+  
+.footer {
+    grid-column: 1 / -1;
+}
