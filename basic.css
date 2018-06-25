@@ -1,21 +1,48 @@
-.container > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2em;
-  color: #525150;
-}
 
 html, body {
 font-family:Helvetica, Verdana, Sans-Serif;
   box-sizing: border-box;
-  background-color: #ffeead;
   height: 100%;
-  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0px;
 }
 
-.container > div:nth-child(1n) {
-  background-color: #c1ffe0;	
+body{
+  background-image: url("p/background.png");
+}
+.color {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #525150;
+  padding: 5px;
 }
 
+.header{
+  font-size: 10em;
+}
+
+.search{
+  font-size: 4em;
+
+}
+
+.searchsmall{
+  font-size: 2em;
+  padding-top: 10px;
+}
+
+.headersmall{
+  font-size: 5em; 
+}
+
+.form-control{
+  font-size: 1em;
+}
+
+.text{
+  font-size: 2em;
+}
+.nest{
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
