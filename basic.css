@@ -18,7 +18,8 @@ body{
 }
 
 .header{
-  font-size: 10em;
+  font-size: 8em;
+  line-height: 1.2;
 }
 
 .search{

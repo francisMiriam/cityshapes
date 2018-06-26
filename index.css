@@ -7,17 +7,18 @@
    
 }
 
-.header, 
-.headersmall, 
-.search, 
-.searchsmall, 
-.text, 
-.content,
-.color,
-.footer{
+.color{
     grid-column: 2 / 12;
 }
 
 .map {
    grid-column: 1/-1;
+}
+.icon{
+    grid-column: 3/8;
+}
+
+.searchsmall,
+.search{
+    grid-column: 2/10;
 }
