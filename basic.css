@@ -48,7 +48,7 @@ body{
   padding-bottom: 1em;
 }
 
-a {
+a, a:hover, a:active {
   text-decoration: none;
   color: #525150;
 }
