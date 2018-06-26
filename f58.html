@@ -16,16 +16,14 @@
             <a href="https://francismiriam.github.io/cityshapes/">City Shapes</a>
         </div>
         <div class="searchsmall">
-            <form id="subPageForm">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" name="subPageId" placeholder="neue Nummer" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                        <button onclick="loadSubPage()" class="btn btn-outline-secondary" type="button">
-                            <i class="fas fa-search fa-5x"></i>
-                        </button>
-                    </div>
-                </div>
-            </form>
+                <form id="subPageForm" onSubmit="loadSubPage(); return false;" action="#">
+                        <div class="input-group mb-3">
+                              <input type="text" class="form-control" name="subPageId" placeholder="Nummer" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                              <div class="input-group-append">
+                                <button type="submit" class="btn btn-outline-secondary"> <i class="fas fa-search fa-5x"></i></button>
+                              </div>
+                       </div>
+                      </form>
         </div>
         <div class="map">
             <img src="p/f58.jpg" class="img-fluid" alt="Responsive image">
